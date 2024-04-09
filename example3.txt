@@ -1,0 +1,8 @@
+John>Accountant,Manager,Designer
+Lucy>Engineer,Scientist
+Mark>Accountant,Engineer
+Nancy>Manager,Scientist,Engineer
+Oscar>Designer,Accountant
+Paula>Scientist,Designer
+Quinn>Manager,Scientist
+Rita>Engineer,Manager,Accountant
