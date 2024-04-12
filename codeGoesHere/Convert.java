@@ -77,17 +77,23 @@ class Convert {
 			int jobIndex = 1;
 			while (input.hasNextLine()) {
 
-				String[] line = input.nextLine().split(">");
+				String line = input.nextLine();
+
+				if (line.isEmpty()) {
+					continue;
+				}
+
+				String[] applicant = line.split(">");
 
 				if (nameMap.get(index) == null) {
-					nameMap.put(index++, line[0]);
+					nameMap.put(index++, applicant[0]);
 					personIndex++;
 				}
-				String[] positions = line[1].split(",");
-				jobs.add(line[1].split(","));
+				String[] positions = applicant[1].split(",");
+				jobs.add(applicant[1].split(","));
 
-				if (applicationMap.get(line[0]) == null) {
-					applicationMap.put(line[0], positions);
+				if (applicationMap.get(applicant[0]) == null) {
+					applicationMap.put(applicant[0], positions);
 				}
 			}
 			Iterator<String[]> iterator = jobs.iterator();
