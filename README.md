@@ -67,7 +67,7 @@ Matches:
 ***************************************************
 ```
 
-## ***Authors***
+## ***Acknowledgements***
 
-- Bjorn Talastas
+Professor Katherine Russell
 
