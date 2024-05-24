@@ -20,6 +20,7 @@ git clone https://github.com/btalastas/maximal-bipartite-graph-matching.git
 ```
 
 Next navigate to the `codeGoesHere` directory
+
 ```sh
 cd maximal-bipartite-graph-matching/codeGoesHere
 ```
@@ -36,13 +37,15 @@ Finally, to run the java program run the following command with any of the examp
 java Convert ../example.txt
 ```
 
-## ***Input/Output***
+## ***Input***
 
 The txt files follow the following format
 
 `[Node from set A]>[Comma seperated list of nodes in set 2]`
 
 Each row signifies a new node in set A, and the right side represents nodes in set B.
+
+## ***Examples***
 
 The example.txt file shows the following.
 
@@ -56,18 +59,44 @@ Person 5>Technical Manager
 
 Running the program with this txt file outputs the following.
 
-```sh
-***************************************************
-Max Flow: 4
-Matches:
-        Person 1-->Software Developer
-        Person 2-->Software Engineer
-        Person 3-->Network Engineer
-        Person 4-->Technical Manager
-***************************************************
+![example.txt][example]
+
+example2.txt
+
+```txt
+Sam Alexson>Software Developer,Software Engineer
+Alex Samson>Software Engineer
+Fred Fredson>Software Developer,Network Engineer,Interface Developer
+The Guy Whose Name I Forgot>Software Engineer,Technical Manager
+And That Other Person, Whatshername>Technical Manager
 ```
+
+![example2.txt][example2]
+
+example3.txt
+
+```txt
+John>Accountant,Manager,Designer
+Lucy>Engineer,Scientist
+Mark>Accountant,Engineer
+Nancy>Manager,Scientist,Engineer
+Oscar>Designer,Accountant
+Paula>Scientist,Designer
+Quinn>Manager,Scientist
+Rita>Engineer,Manager,Accountant
+```
+
+![example3.txt][example3]
 
 ## ***Acknowledgements***
 
 Professor Katherine Russell
 
+## ***Acknowledgements***
+
+- Professor Katherine Russell
+
+
+[example]: ./pics/example.png
+[example2]: ./pics/example2.png
+[example3]: ./pics/example3.png
