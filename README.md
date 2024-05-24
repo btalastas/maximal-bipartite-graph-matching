@@ -92,9 +92,6 @@ Rita>Engineer,Manager,Accountant
 
 Professor Katherine Russell
 
-## ***Acknowledgements***
-
-- Professor Katherine Russell
 
 
 [example]: ./pics/example.png
