@@ -6,9 +6,9 @@ Java program to solve the maximal bipartite graph matching problem. A bipartite 
 
 Some examples of this type of problems are:
 
-    - Matching job applicants to job openings.
-    - Matching animal's up for adoption at a shelter to people.
-    - Matching passengers to ride-share drivers.
+- Matching job applicants to job openings.
+- Matching animal's up for adoption at a shelter to people.
+- Matching passengers to ride-share drivers.
 
 For the examples listed above, we want the maximum possible connections from set A to set B. To solve this problem we can turn this graph into a network flow graph. A network flow graph includes two seperate nodes called the source and sink. There is a flow coming out of the source and into the sink. We attach the source node to all the nodes in set A, and attach the nodes in set B to the sink node. By implementing the Ford-Fulkerson max flow algorithm, we can find which nodes from set A that match to nodes in set B if there is a flow between them.
 
