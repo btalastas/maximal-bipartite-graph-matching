@@ -5,6 +5,7 @@
 Java program to solve the maximal bipartite graph matching problem. A bipartite graph is a graph where there are two sets of nodes. Nodes from set A can only be connected with an edge to nodes in set B. This problem wants to match as many nodes from set A to set B without reusing any nodes from either set.
 
 Some examples of this type of problems are:
+
     - Matching job applicants to job openings.
     - Matching animal's up for adoption at a shelter to people.
     - Matching passengers to ride-share drivers.
